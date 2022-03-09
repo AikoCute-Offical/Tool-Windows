@@ -7,11 +7,17 @@ $ErrorActionPreference = 'SilentlyContinue'
 cls
 
 Write-Host "
-        AikoCute ToolBox Đang Chạy Trên Windows
+    ___________            __    __________              
+    \__    ___/___   ____ |  |   \______   \ _______  ___
+      |    | /  _ \ /  _ \|  |    |    |  _//  _ \  \/  /
+      |    |(  <_> |  <_> )  |__  |    |   (  <_> >    < 
+      |____| \____/ \____/|____/  |______  /\____/__/\_ \
+                                         \/            \/
+
  -------------------------------------------------------------
 
 " -ForegroundColor green
-Write-Host "Khởi tạo Window ToolBox..." -ForegroundColor green
+Write-Host "Initializing Window ToolBox..." -ForegroundColor green
 
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
