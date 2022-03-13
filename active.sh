@@ -1,3 +1,5 @@
+#! / bin / bash
+
 @setlocal DisableDelayedExpansion
 @echo off
 goto MAS_Start
